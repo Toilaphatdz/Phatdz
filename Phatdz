@@ -11,8 +11,8 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "Turbo Lite",
-        Text = "Đang Tải",
+        Title = "Phatdz",
+        Text = "Đang Load",
         Duration = 5
     })
 
@@ -35,7 +35,7 @@ function AdminLoggerMsg()
     local AdminMessage = {
         ["embeds"] = {
             {
-                ["title"] = "**Script Turbo Lite - Farm**",
+                ["title"] = "**Phatdz - Farm**",
                 ["description"] = "",
                 ["type"] = "rich",
                 ["color"] = randomColor, 
@@ -89,8 +89,8 @@ local fask = task
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Turbo Lite Hub",
-    SubTitle = "Hello World!",
+    Title = "PhatdzHub",
+    SubTitle = "By hhp",
     TabWidth = 110,
     Size = UDim2.fromOffset(480, 320),
     Acrylic = false,
@@ -128,7 +128,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=18919385586"
+ImageButton.Image = "http://www.roblox.com/asset/?id=131864978530065"
 
 UICorner.CornerRadius = UDim.new(0, 10) 
 UICorner.Parent = ImageButton
@@ -139,7 +139,7 @@ end)
 
 local function playSound()
     local sound = Instance.new("Sound", game:GetService("CoreGui"))
-    sound.SoundId = "rbxassetid://"
+    sound.SoundId = "rbxassetid://131864978530065"
     sound.Volume = 10
     sound:Play()
 end
